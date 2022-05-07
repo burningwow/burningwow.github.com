@@ -1,0 +1,638 @@
+.g-index{
+    margin: 0 auto;
+    width:800px;
+    height: 603px;
+    box-sizing: border-box;
+    border: 20px solid #CDD3F5;
+}
+body{
+    flex-direction: column;
+    background: rgb(74 181 74);
+    display: flex;
+    justify-content: center;
+ 
+}
+
+li{
+    list-style: none;
+}
+.m-hd{
+    padding: 20px;
+    display:  flex;
+    flex-direction: row;
+    border-bottom: 20px solid #CDD3F5;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.m-hd>li{
+    width: 80px;
+    height:80px;
+    background-color: #CDD3F5;
+    border: 1px solid black;
+}
+
+.m-hd>i{
+    flex:1;
+}
+.m-hd>li+li{
+    margin-left:40px;
+}
+.m-bd{
+    padding: 20px 20px 0px 20px;
+    display:  flex;
+    border: 1px solid black;
+}
+.m-lt {
+    width: 240px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+.m-lt>:nth-child(1) {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #CDD3F5;
+}
+.m-lt>:nth-child(2){
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px 0 0 0 ;
+    background-color: #CDD3F5
+}
+.m-lt>:nth-child(3){
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px 0 0 25px;
+    background-color: #CDD3F5
+}
+.m-lt>:nth-child(4){
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px 0 0 25px;
+    background-color: #CDD3F5
+}
+.m-rt {
+    width: 500px;
+    flex-direction: column;
+    display: flex;
+}
+.m-rt>li{
+    width: 480px;
+    height: 40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    background-color: #CDD3F5
+}
+
+
+
+
+.n-index{
+    width: 390px;
+    height: 370px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+.n-hd {
+    height: 260px;
+    background: rgb(243 243 208);
+    display: flex;
+    justify-content: center;
+}
+.n-bd{
+    
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 110px;
+    background-color: #fdd5ff;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.n-bd>:nth-child(1) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border: 1px solid black;
+}
+.n-bd>:nth-child(2) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+    border: 1px solid black;
+}
+.n-bd>:nth-child(3) {
+    padding-left: 10px;
+    width: 360px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    
+}
+.n-bd>:nth-child(3)>:nth-child(1) {
+    color: red;
+    font-size: 20px;
+}
+.n-bd>:nth-child(3)>:nth-child(2) {
+  
+    padding-left: 10px;
+    font-size: 10px;
+}
+.n-bd>:nth-child(3)>:nth-child(3) {
+    padding-left: 120px;
+    font-size: 10px;
+}
+
+
+
+.w-index{
+    width: 1206px;
+    height: 784px;
+    background-color: #d8d8d8;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.w-index1{
+    width: 390px;
+    height: 370px;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.w-hd1 {
+    height: 260px;
+    background: url(../2020213102023蒋昊捷实验六/img/1.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.n-bd1{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 110px;
+    background-color: #fdd5ff;
+}
+
+.w-bd1>:nth-child(1){
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.w-bd1>:nth-child(2) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+}
+.w-bd1>:nth-child(2)>:nth-child(2) {
+    color: grey;
+}
+.w-bd1>:nth-child(3) {
+    padding-left: 10px;
+    width: 360px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.w-bd1>:nth-child(3)>:nth-child(1) {
+    color: red;
+    font-size: 20px;
+}
+.w-bd1>:nth-child(3)>:nth-child(2) {
+    padding-left: 10px;
+    font-size: 10px;
+}
+.w-bd1>:nth-child(3)>:nth-child(3) {
+    color: red;
+    padding-left: 200px;
+    font-size: 10px;
+}
+.w-bd1>:nth-child(3)>:nth-child(4) {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+.w-index2{
+    width: 390px;
+    height: 370px;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.w-hd2{
+    height: 260px;
+    background: url(../2020213102023蒋昊捷实验六/img/2.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.n-bd2{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 110px;
+    background-color: #fdd5ff;
+}
+
+.w-bd2>:nth-child(1){
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.w-bd2>:nth-child(2) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+}
+.w-bd2>:nth-child(2)>:nth-child(2) {
+    color: grey;
+}
+.w-bd2>:nth-child(3) {
+    padding-left: 10px;
+    width: 360px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.w-bd2>:nth-child(3)>:nth-child(1) {
+    color: red;
+    font-size: 20px;
+}
+.w-bd2>:nth-child(3)>:nth-child(2) {
+    padding-left: 10px;
+    font-size: 10px;
+}
+.w-bd2>:nth-child(3)>:nth-child(3) {
+    color: red;
+    padding-left: 210px;
+    font-size: 10px;
+}
+.w-bd2>:nth-child(3)>:nth-child(4) {
+    font-size: 10px;
+}
+
+
+
+
+.w-index3{
+    width: 390px;
+    height: 370px;
+    margin: 10px 0px 10px 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.w-hd3{
+    height: 260px;
+    background: url(../2020213102023蒋昊捷实验六/img/3.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.n-bd3{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 110px;
+    background-color: #fdd5ff;
+}
+
+.w-bd3>:nth-child(1){
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.w-bd3>:nth-child(2) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+}
+.w-bd3>:nth-child(2)>:nth-child(2) {
+    color: grey;
+}
+.w-bd3>:nth-child(3) {
+    padding-left: 10px;
+    width: 360px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.w-bd3>:nth-child(3)>:nth-child(1) {
+    color: red;
+    font-size: 20px;
+}
+.w-bd3>:nth-child(3)>:nth-child(2) {
+    padding-left: 10px;
+    font-size: 10px;
+}
+.w-bd3>:nth-child(3)>:nth-child(3) {
+    color: red;
+    padding-left: 195px;
+    font-size: 10px;
+}
+.w-bd3>:nth-child(3)>:nth-child(4) {
+    font-size: 10px;
+}
+
+
+
+
+
+.w-index4{
+    width: 390px;
+    height: 370px;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.w-hd4{
+    height: 260px;
+    background: url(../2020213102023蒋昊捷实验六/img/4.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.n-bd4{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 110px;
+    background-color: #fdd5ff;
+}
+
+.w-bd4>:nth-child(1){
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.w-bd4>:nth-child(2) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+}
+.w-bd4>:nth-child(3) {
+    padding-left: 10px;
+    width: 360px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.w-bd4>:nth-child(3)>:nth-child(1) {
+    color: red;
+    font-size: 20px;
+}
+.w-bd4>:nth-child(3)>:nth-child(2) {
+    padding-left: 10px;
+    font-size: 10px;
+}
+.w-bd4>:nth-child(2)>:nth-child(2) {
+    color: grey;
+}
+.w-bd4>:nth-child(3)>:nth-child(3) {
+    color: red;
+    padding-left: 185px;
+    font-size: 10px;
+}
+.w-bd4>:nth-child(3)>:nth-child(4) {
+    font-size: 10px;
+}
+
+
+
+
+
+
+.w-index5{
+    width: 390px;
+    height: 370px;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.w-hd5{
+    height: 260px;
+    background: url(../2020213102023蒋昊捷实验六/img/5.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.n-bd5{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 110px;
+    background-color: #fdd5ff;
+}
+
+.w-bd5>:nth-child(1){
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.w-bd5>:nth-child(2) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+}
+.w-bd5>:nth-child(2)>:nth-child(2) {
+    color: grey;
+}
+.w-bd5>:nth-child(3) {
+    padding-left: 10px;
+    width: 360px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.w-bd5>:nth-child(3)>:nth-child(1) {
+    color: red;
+    font-size: 20px;
+}
+.w-bd5>:nth-child(3)>:nth-child(2) {
+    padding-left: 10px;
+    font-size: 10px;
+}
+.w-bd5>:nth-child(3)>:nth-child(3) {
+    color: red;
+    padding-left: 200px;
+    font-size: 10px;
+}
+.w-bd5>:nth-child(3)>:nth-child(4) {
+    font-size: 10px;
+}
+
+
+
+
+
+
+.w-index6{
+    width: 390px;
+    height: 370px;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.w-hd6{
+    height: 260px;
+    background: url(../2020213102023蒋昊捷实验六/img/6.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.n-bd6{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 110px;
+    background-color: #fdd5ff;
+}
+
+.w-bd6>:nth-child(1){
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.w-bd6>:nth-child(2) {
+    padding-left: 10px;
+    width: 360px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+}
+.w-bd6>:nth-child(2)>:nth-child(2) {
+    color: grey;
+}
+.w-bd6>:nth-child(3) {
+    padding-left: 10px;
+    width: 360px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.w-bd6>:nth-child(3)>:nth-child(1) {
+    color: red;
+    font-size: 20px;
+}
+.w-bd6>:nth-child(3)>:nth-child(2) {
+    padding-left: 10px;
+    font-size: 10px;
+}
+.w-bd6>:nth-child(3)>:nth-child(3) {
+    color: red;
+    padding-left: 200px;
+    font-size: 10px;
+}
+.w-bd6>:nth-child(3)>:nth-child(4) {
+    font-size: 10px;
+}
